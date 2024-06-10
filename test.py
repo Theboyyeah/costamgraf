@@ -106,7 +106,7 @@ class GraphWidget(QtWidgets.QWidget):
 def main():
     app = QtWidgets.QApplication(sys.argv)
 
-    directed = True  # Change to False for undirected graph
+    directed = True  
     graph = GraphAsMatrix(20, directed)
     edges = [
         (0, 1), (1, 2), (2, 3), (3, 4),
